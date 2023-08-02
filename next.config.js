@@ -7,7 +7,7 @@ const nextConfig = {
   //   // You can, for example, get the latest git commit hash here
   //   return process.env.NEXT_PUBLIC_LOCALE || "base";
   // },
-  assetPrefix: locale,
+  // assetPrefix: locale,
 };
 
 module.exports = nextConfig;
