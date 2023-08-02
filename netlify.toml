@@ -1,13 +1,7 @@
 [[redirects]]
   from = "/en/*"
-  to = "https://uk-localise-test.netlify.app/:splat"
+  to = "https://uk-localise-test.netlify.app/en/:splat"
   status = 200
-  force = true
-
-  [[redirects]]
-  from = "/en/_next/*"
-  to = "https://fr-localise-test.netlify.app/_next/:splat"
-  status = 301
   force = true
 
 [[redirects]]
@@ -16,16 +10,12 @@
   status = 301
   conditions = {Language = ["en"]}
 
-[[redirects]]
-  from = "/fr/_next/*"
-  to = "https://fr-localise-test.netlify.app/_next/:splat"
-  status = 301
-  force = true
+
 
 
 [[redirects]]
   from = "/fr/*"
-  to = "https://fr-localise-test.netlify.app/:splat"
+  to = "https://fr-localise-test.netlify.app/fr/:splat"
   status = 200
   force = true
 
