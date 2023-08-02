@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/en/*"
-  to = "https://uk-localise-test.netlify.app/:splat"
+  to = "https://uk-localise-test.netlify.app/fr/:splat"
   status = 200
   force = true
 
@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "/fr/*"
-  to = "https://fr-localise-test.netlify.app/:splat"
+  to = "https://fr-localise-test.netlify.app/fr/:splat"
   status = 200
   force = true
 
