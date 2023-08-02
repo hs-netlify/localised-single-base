@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/en/:splat"
+  status = 301
+  conditions = {Language = ["en"]}
+
 
 [[redirects]]
   from = "/en/*"
@@ -7,9 +13,10 @@
 
 [[redirects]]
   from = "/*"
-  to = "/en/:splat"
+  to = "/fr/:splat"
   status = 301
-  conditions = {Language = ["en"]}
+  force = true 
+  conditions = {Language = ["fr"]}
 
 [[redirects]]
   from = "/fr/*"
@@ -17,12 +24,7 @@
   status = 200
   force = true
 
-[[redirects]]
-  from = "/*"
-  to = "/fr/:splat"
-  status = 301
-  force = true 
-  conditions = {Language = ["fr"]}
+
 
 
 
